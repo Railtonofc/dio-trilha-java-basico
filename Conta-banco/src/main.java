@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
         ContaTerminal conta = new ContaTerminal();
-        Scanner scan = new Scanner(System.in);123
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite o número da conta:");
         conta.setNumero(scan.nextInt());
